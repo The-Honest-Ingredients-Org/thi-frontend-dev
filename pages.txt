@@ -1,0 +1,8 @@
+signup - done
+login - done
+main - done
+profile - done
+cart
+products
+explore the stores - done
+admin - done

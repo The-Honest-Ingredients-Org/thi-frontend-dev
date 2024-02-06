@@ -1,0 +1,27 @@
+export const products = {
+  Spices: [
+    { id: 1, name: "Dried Fenugreek" },
+    { id: 2, name: "Wild Celery" },
+    { id: 3, name: "Bay Leaf" },
+    { id: 4, name: "Turmeric" },
+    { id: 5, name: "Coriander" },
+    { id: 6, name: "Cumin" },
+    { id: 7, name: "Red Chilli Powder" },
+    { id: 8, name: "Kashmiri Red Chilli Powder" },
+    { id: 9, name: "Garam Masala" },
+    { id: 10, name: "Panch Phoran (a spice blend)" },
+    { id: 11, name: "Black Cumin" },
+    { id: 12, name: "Cloves" },
+    { id: 13, name: "Asafoetida" },
+    { id: 14, name: "Red Mustard Seeds" },
+    { id: 15, name: "Mustard" },
+    { id: 16, name: "Cinnamon" },
+    { id: 17, name: "Black Pepper" },
+  ],
+  DryFruits: [
+    { id: 18, name: "Poppy Seeds" },
+    { id: 19, name: "Fennel Seeds" },
+    { id: 20, name: "Carrom Seeds (Ajwain)" },
+    { id: 21, name: "Tapioca Pearl" },
+  ],
+};

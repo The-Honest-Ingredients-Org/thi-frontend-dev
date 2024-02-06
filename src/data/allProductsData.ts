@@ -1,0 +1,100 @@
+export const allProducts = [
+  {
+    id: 1,
+    name: "Product 1",
+    price: 10.99,
+    initialQuantity: "100",
+    description: "Description for Product 1",
+    type: "spices",
+    variants: [
+      { size: "Small", quantity: "50g", price: 5.99 },
+      { size: "Large", quantity: "200g", price: 12.99 },
+    ],
+    reviews: [
+      { user: "user-id-1", rating: 4.5, comment: "Great product!" },
+      { user: "user-id-2", rating: 3.0, comment: "Not bad." },
+    ],
+    paymentOptions: ["COD", "Online"],
+    images: ["/assets/dryFruits.png", "/assets/dryFruits.png"],
+  },
+  {
+    id: 2,
+    name: "Product 2",
+    price: 15.99,
+    initialQuantity: "200",
+    description: "Description for Product 2",
+    type: "herbs",
+    variants: [
+      { size: "Medium", quantity: "100g", price: 9.99 },
+      { size: "Large", quantity: "250g", price: 18.99 },
+    ],
+    reviews: [
+      { user: "user-id-3", rating: 4.0, comment: "Nice product." },
+      { user: "user-id-4", rating: 5.0, comment: "Excellent!" },
+    ],
+    paymentOptions: ["COD"],
+    images: ["/assets/dryFruits.png", "/assets/dryFruits.png"],
+  },
+  {
+    id: 3,
+    name: "Product 3",
+    price: 9.99,
+    initialQuantity: "150",
+    description: "Description for Product 3",
+    type: "spices",
+    variants: [
+      { size: "Small", quantity: "50g", price: 4.99 },
+      { size: "Medium", quantity: "100g", price: 7.99 },
+    ],
+    reviews: [
+      { user: "user-id-5", rating: 4.2, comment: "Good value for money." },
+      { user: "user-id-6", rating: 4.8, comment: "Highly recommended." },
+    ],
+    paymentOptions: ["Online"],
+    images: ["/assets/dryFruits.png", "/assets/dryFruits.png"],
+  },
+  {
+    id: 4,
+    name: "Product 4",
+    price: 12.49,
+    initialQuantity: "120",
+    description: "Description for Product 4",
+    type: "herbs",
+    variants: [
+      { size: "Small", quantity: "60g", price: 6.99 },
+      { size: "Large", quantity: "180g", price: 14.99 },
+    ],
+    reviews: [
+      { user: "user-id-7", rating: 3.5, comment: "Decent product." },
+      {
+        user: "user-id-8",
+        rating: 4.2,
+        comment: "Satisfied with the purchase.",
+      },
+    ],
+    paymentOptions: ["COD", "Online"],
+    images: ["/assets/dryFruits.png", "/assets/dryFruits.png"],
+  },
+  {
+    id: 5,
+    name: "Product 4",
+    price: 12.49,
+    initialQuantity: "120",
+    description: "Description for Product 4",
+    type: "herbs",
+    variants: [
+      { size: "Small", quantity: "60g", price: 6.99 },
+      { size: "Large", quantity: "180g", price: 14.99 },
+    ],
+    reviews: [
+      { user: "user-id-7", rating: 3.5, comment: "Decent product." },
+      {
+        user: "user-id-8",
+        rating: 4.2,
+        comment: "Satisfied with the purchase.",
+      },
+    ],
+    paymentOptions: ["COD", "Online"],
+    images: ["/assets/dryFruits.png", "/assets/dryFruits.png"],
+  },
+];
